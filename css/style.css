@@ -1,0 +1,77 @@
+body {
+  background-image: url("../images/snowboarding.jpeg");
+  background-repeat: no-repeat;
+  background-size: auto 800px;
+  background-attachment: fixed;
+}
+
+h1 {
+  margin-top: 230px;
+  text-align: center;
+  color: blue;
+  font-size: 75px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+  font-size: 40px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+ul {
+  padding-top: 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+li {
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+  color: blue;
+  padding: 10px 10px 10px 10px;
+}
+
+#landing {
+  height: 800px;
+}
+
+#aboutMeDiv {
+  height: 600px;
+  text-align: center;
+  padding-top: 300px;
+  background-color: white;
+}
+
+#experienceDiv {
+  height: 650px;
+  background-color: blue;
+}
+
+#projectsDiv {
+  height: 650px;
+  background-color: black;
+}
+
+#contactDiv {
+  height: 650px;
+  background-color: red;
+}
