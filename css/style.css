@@ -75,3 +75,7 @@ li {
   height: 650px;
   background-color: red;
 }
+
+p {
+  text-align: center;
+}
