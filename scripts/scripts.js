@@ -56,33 +56,9 @@ $(window).scroll(function(event) {
 });
 
 function onYouTubeIframeAPIReady() {
-  var player1;
-  var player2;
-    player1 = new YT.Player('goKartVid',  {
-      videoId: 'sokFwmFNwUY', // YouTube Video ID
-      width: 400,               // Player width (in px)
-      height: 250,              // Player height (in px)
-      playerVars: {
-        autoplay: 1,        // Auto-play the video on load
-        controls: 1,        // Show pause/play buttons in player
-        showinfo: 1,        // Hide the video title
-        modestbranding: 1,  // Hide the Youtube Logo
-        loop: 1,            // Run the video in a loop
-        fs: 0,              // Hide the full screen button
-        cc_load_policy: 0, // Hide closed captions
-        iv_load_policy: 0,  // Hide the Video Annotations
-        autohide: 1,         // Hide video controls when playing
-        start: 055,
-        playlist : 'sokFwmFNwUY'
-      },
-      events: {
-        onReady: function(e) {
-          e.target.mute();
-          }
-      }
-    });
-    player2 = new YT.Player('snowboardVid', {
-      videoId: '6uFrPeIhbwk', // YouTube Video ID
+  var player;
+  // var player2;
+    player = new YT.Player('meVideos',  {
       width: 400,               // Player width (in px)
       height: 250,              // Player height (in px)
       playerVars: {
@@ -95,12 +71,13 @@ function onYouTubeIframeAPIReady() {
         cc_load_policy: 0, // Hide closed captions
         iv_load_policy: 0,  // Hide the Video Annotations
         autohide: 1,         // Hide video controls when playing
-        start: 009
+        playlist: 'uaPgEPy71Qc, qr_4yoUwMnE',
       },
       events: {
         onReady: function(e) {
           e.target.mute();
-        }
+          e.target.playVideo();
+          }
       }
     });
 }
