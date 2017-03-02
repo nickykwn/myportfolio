@@ -59,8 +59,8 @@ function onYouTubeIframeAPIReady() {
   var player;
   // var player2;
     player = new YT.Player('meVideos',  {
-      width: 400,               // Player width (in px)
-      height: 250,              // Player height (in px)
+      width: 500,               // Player width (in px)
+      height: 300,              // Player height (in px)
       playerVars: {
         autoplay: 1,        // Auto-play the video on load
         controls: 0,        // Show pause/play buttons in player
