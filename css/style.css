@@ -105,7 +105,7 @@ li {
   position: absolute;
   top: 0;
   font-size: 32px;
-  padding-top: 80px;
+  padding-top: 100px;
   width: 100%;
 }
 
@@ -115,13 +115,17 @@ li {
 }
 
 #experienceDiv h3 {
-  font-size: 30px;
+  font-size: 32px;
   padding-bottom: 50px;
 }
 
 #projectsDiv {
   height: 650px;
   background-color: green;
+}
+
+#projectsDiv h3 {
+  font-size: 32px;
 }
 
 #contactDiv {
