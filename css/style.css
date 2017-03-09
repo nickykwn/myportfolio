@@ -1,31 +1,32 @@
 body {
-  background-image: url("../images/snowboarding.jpeg");
+  background-image: url("../images/snowboarding.jpg");
   background-repeat: no-repeat;
   background-size: auto 800px;
   background-attachment: fixed;
-  -webkit-filter: grayscale(30%);
-  filter: grayscale(30%);
+  /*-webkit-filter: grayscale(30%);
+  filter: grayscale(30%);*/
 }
 
 h1 {
   margin-top: 230px;
   text-align: center;
-  color: black;
+  color: rgb(13, 13, 13);
   font-size: 75px;
   padding-bottom: 10px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 h2 {
   text-align: center;
-  color: black;
+  color: rgb(13, 13, 13);
   font-size: 40px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 h3 {
   text-align: center;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
+  width: 100%;
 }
 
 #topNav {
@@ -35,13 +36,13 @@ h3 {
   left: 0;
   height: 40px;
   width: 100%;
-  background-color: #D3D3D3;
+  background-color: #DCDCDC;
   z-index: 999;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 #topNav li {
-  color: black;
+  color: rgb(13, 13, 13);
   font-size: 18px;
   text-align: center;
 }
@@ -58,16 +59,16 @@ h3 {
   padding-top: 30px;
   text-align: center;
   list-style-type: none;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 li {
-  font-size: 30px;
+  font-size: 28px;
   display: inline-block;
   text-align: center;
-  color: black;
+  color: rgb(13, 13, 13);
   padding: 10px 10px 10px 10px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 #landing {
@@ -88,15 +89,10 @@ li {
   margin-top: -75px;
 }
 
-#videoDiv p {
-  padding-top: 40px;
-  font-size: 20px;
-}
-
 #aboutMeDiv {
   height: 340px;
   padding-top: 300px;
-  background-color: white;
+  background-color: #D3D3D3;
   position: relative;
   overflow: hidden;
 }
@@ -109,14 +105,25 @@ li {
   width: 100%;
 }
 
+#aboutMeText p {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+#aboutMeText {
+  margin-top: 35px;
+}
+
 #experienceDiv {
   height: 650px;
-  background-color: gray;
+  background-color: #A9A9A9;
 }
 
 #experienceDiv h3 {
   font-size: 32px;
   padding-bottom: 50px;
+  padding-top: 52px;
+  width: 100%;
 }
 
 #projectsDiv {
@@ -143,9 +150,6 @@ li {
 
 p {
   text-align: center;
-  font-family: 'Exo 2', sans-serif;
-}
-
-.blank {
-  height: 100px;
+  font-family: 'Droid Sans', sans-serif;
+  width: 100%;
 }
