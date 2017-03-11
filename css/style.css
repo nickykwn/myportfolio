@@ -98,7 +98,7 @@ li {
 }
 
 #aboutMeDiv {
-  height: 340px;
+  height: 395px;
   padding-top: 300px;
   background-color: #D3D3D3;
   position: relative;
@@ -109,7 +109,7 @@ li {
   position: absolute;
   top: 0;
   font-size: 32px;
-  padding-top: 100px;
+  padding-top: 80px;
   width: 100%;
 }
 
@@ -119,11 +119,11 @@ li {
 }
 
 #aboutMeText {
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 #experienceDiv {
-  height: 650px;
+  height: 750px;
   background-color: #A9A9A9;
 }
 
@@ -135,7 +135,7 @@ li {
 }
 
 #projectsDiv {
-  height: 650px;
+  height: 700px;
   background-color: #D3D3D3;
 }
 
@@ -194,12 +194,24 @@ p {
 #linkedin {
   width: 75px;
   height: 75px;
-  padding: 5px 10px 5px 5px;
+  padding: 5px 5px 5px 5px;
   margin-left: 450px;
   box-shadow: 10px 10px 5px #888888;
 }
 
 #linkedin:hover {
+  width: 83px;
+  height: 83px;
+}
+
+#email {
+  width: 75px;
+  height: 75px;
+  padding: 5px 5px 5px 5px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#email:hover {
   width: 83px;
   height: 83px;
 }
