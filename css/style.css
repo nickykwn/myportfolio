@@ -94,7 +94,7 @@ li {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  margin-top: -75px;
+  margin-top: -90px;
 }
 
 #aboutMeDiv {
@@ -130,7 +130,7 @@ li {
 #experienceDiv h3 {
   font-size: 32px;
   padding-bottom: 50px;
-  padding-top: 52px;
+  padding-top: 80px;
   width: 100%;
 }
 
@@ -141,8 +141,17 @@ li {
 
 #projectsDiv h3 {
   font-size: 32px;
-  padding-top: 52px;
+  padding-top: 80px;
   width: 100%;
+}
+
+#project {
+  padding-top: 100px;
+}
+
+.projectsImg {
+  width: 390px;
+  height: 250px;
 }
 
 #contactDiv {
@@ -152,7 +161,7 @@ li {
 
 #contactDiv h3 {
   font-size: 30px;
-  padding-top: 52px;
+  padding-top: 80px;
   width: 100%;
 }
 
@@ -195,7 +204,7 @@ p {
   width: 75px;
   height: 75px;
   padding: 5px 5px 5px 5px;
-  margin-left: 450px;
+  margin-left: 375px;
   box-shadow: 10px 10px 5px #888888;
 }
 
