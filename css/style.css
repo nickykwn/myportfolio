@@ -135,7 +135,7 @@ li {
 }
 
 #projectsDiv {
-  height: 700px;
+  height: 710px;
   background-color: #D3D3D3;
 }
 
@@ -147,11 +147,14 @@ li {
 
 #project {
   padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .projectsImg {
-  width: 390px;
-  height: 250px;
+  width: 380px;
+  height: 240px;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 #contactDiv {
