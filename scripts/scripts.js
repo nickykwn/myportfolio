@@ -71,7 +71,7 @@ function onYouTubeIframeAPIReady() {
         cc_load_policy: 0, // Hide closed captions
         iv_load_policy: 0,  // Hide the Video Annotations
         autohide: 1,         // Hide video controls when playing
-        playlist: 'uaPgEPy71Qc, qr_4yoUwMnE',
+        playlist: 'qr_4yoUwMnE, uaPgEPy71Qc',
       },
       events: {
         onReady: function(e) {

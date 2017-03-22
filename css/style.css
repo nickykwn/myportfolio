@@ -44,7 +44,7 @@ h4 {
   left: 0;
   height: 40px;
   width: 100%;
-  background-color: #DCDCDC;
+  background-color: #FAFAFA;
   z-index: 999;
   font-family: 'Droid Sans', sans-serif;
 }
@@ -100,7 +100,7 @@ li {
 #aboutMeDiv {
   height: 395px;
   padding-top: 300px;
-  background-color: #D3D3D3;
+  background-color: #F0F8FF;
   position: relative;
   overflow: hidden;
 }
@@ -124,7 +124,7 @@ li {
 
 #experienceDiv {
   height: 750px;
-  background-color: #A9A9A9;
+  background-color: #D3D3D3;
 }
 
 #experienceDiv h3 {
@@ -136,7 +136,7 @@ li {
 
 #projectsDiv {
   height: 710px;
-  background-color: #D3D3D3;
+  background-color: #A9A9A9;
 }
 
 #projectsDiv h3 {
@@ -159,7 +159,7 @@ li {
 
 #contactDiv {
   height: 300px;
-  background-color: #A9A9A9;
+  background-color: #D3D3D3;
 }
 
 #contactDiv h3 {
