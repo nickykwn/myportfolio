@@ -79,6 +79,10 @@ li {
   font-family: 'Droid Sans', sans-serif;
 }
 
+li:hover {
+  cursor: pointer;
+}
+
 #landing {
   height: 800px;
 }
