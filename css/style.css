@@ -104,7 +104,7 @@ li:hover {
 #aboutMeDiv {
   height: 395px;
   padding-top: 300px;
-  background-color: #F0F8FF;
+  background-color: #C4DFE6;
   position: relative;
   overflow: hidden;
 }
@@ -172,12 +172,28 @@ li:hover {
   width: 100%;
 }
 
+#workSkills {
+  display: inline-flex;
+  width: 100%;
+}
+
 #work {
-  margin-right: 20px;
+  width: 50%;
+}
+
+#skills {
+  padding-top: 100px;
+  width: 50%;
+}
+
+#skills p {
+  text-align: center;
+  font-size: 25px;
 }
 
 #work p {
-  text-align: right;
+  text-align: center;
+  font-size: 24px;
 }
 
 p {
