@@ -47,7 +47,7 @@ $('#navContacts').click(function() {
 });
 
 $(window).scroll(function(event) {
-  console.log($(window).scrollTop());
+  // console.log($(window).scrollTop());
   if($(window).scrollTop()>1000){
     $('nav').addClass('show');
   }else{
