@@ -1,3 +1,4 @@
+//click to scroll functions to the designated divs
 $('#aboutMe').click(function() {
   $('html, body').animate({
     scrollTop: $('#aboutMeDiv').offset().top
@@ -46,6 +47,7 @@ $('#navContacts').click(function() {
   }, 700);
 });
 
+//shows the top navBar only when window has been scrolled passed 1000 pixels
 $(window).scroll(function(event) {
   // console.log($(window).scrollTop());
   if($(window).scrollTop()>1000){
@@ -55,6 +57,8 @@ $(window).scroll(function(event) {
   }
 });
 
+
+//YoutubeIframe video player
 function onYouTubeIframeAPIReady() {
   var player;
   // var player2;
