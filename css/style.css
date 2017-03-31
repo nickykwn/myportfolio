@@ -105,6 +105,9 @@ li:hover {
   background-color: #C4DFE6;
   position: relative;
   overflow: hidden;
+  /*background-image: url("../images/basketball.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;*/
 }
 
 #aboutMeDiv h3 {
