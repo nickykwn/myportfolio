@@ -105,6 +105,7 @@ li:hover {
   background-color: #C4DFE6;
   position: relative;
   overflow: hidden;
+  width: 100%;
   /*background-image: url("../images/basketball.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;*/
@@ -121,15 +122,18 @@ li:hover {
 #aboutMeText p {
   padding-bottom: 10px;
   font-size: 20px;
+  line-height: 27px;
 }
 
 #aboutMeText {
   margin-top: 30px;
+  width: 50%;
 }
 
 #experienceDiv {
   height: 750px;
   background-color: #66A5AD;
+  width: 100%;
 }
 
 #experienceDiv h3 {
@@ -141,7 +145,8 @@ li:hover {
 
 #projectsDiv {
   height: 710px;
-  background-color: #B7B8B6;
+  background-color: #C4DFE6;
+  width: 100%;
 }
 
 #projectsDiv h3 {
@@ -165,6 +170,7 @@ li:hover {
 #contactDiv {
   height: 300px;
   background-color: #D3D3D3;
+  width: 100%;
 }
 
 #contactDiv h3 {
@@ -215,7 +221,7 @@ p {
   width: 75px;
   height: 75px;
   padding: 5px 5px 5px 5px;
-  margin-right: 450px;
+/*  margin-right: 450px;*/
   box-shadow: 10px 10px 5px #888888;
 }
 
