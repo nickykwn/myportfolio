@@ -255,6 +255,41 @@ p {
   height: 83px;
 }
 
-@media screen {
-
+@media only screen and (max-width: 640px) {
+  li {
+    font-size: 16px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .hello {
+    width: 640px;
+  }
+  #meVideos {
+    text-align: center;
+    width: 300px;
+    height: 150px;
+  }
+  #aboutMeText {
+    text-align: center;
+    width: 100%;
+  }
+  #aboutMeText p {
+    font-size: 16px;
+  }
+  #videoDiv {
+    display: block;
+    text-align: center;
+    margin-top: -135px;
+  }
+  .projectsImg {
+  width: 350px;
+  height: 250px;
+  box-shadow: 10px 10px 5px #888888;
+  }
+  #project {
+  padding-top: 50px;
+  display: block;
+  text-align: center;
+  }
 }
