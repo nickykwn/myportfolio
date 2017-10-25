@@ -5,6 +5,10 @@ body {
   background-attachment: fixed;
 }
 
+.social {
+  padding: 20px 20px 20px 20px;
+}
+
 h1 {
   margin-top: 230px;
   text-align: center;
@@ -168,14 +172,14 @@ li:hover {
 }
 
 #contactDiv {
-  height: 300px;
+  height: 250px;
   background-color: #D3D3D3;
   width: 100%;
 }
 
 #contactDiv h3 {
   font-size: 30px;
-  padding-top: 80px;
+  padding-top: 40px;
   width: 100%;
 }
 
@@ -211,10 +215,10 @@ p {
 
 #botNav {
   display: block;
-  display: flex;
   justify-content: space-between;
   padding-top: 20px;
   width: 100%;
+  text-align: center;
 }
 
 #github {
@@ -290,6 +294,7 @@ p {
   height: 250px;
   box-shadow: 10px 10px 5px #888888;
   }
+
   #project {
   padding-top: 50px;
   display: block;
