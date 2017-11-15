@@ -171,6 +171,18 @@ li:hover {
   box-shadow: 10px 10px 5px #888888;
 }
 
+#connect4 {
+  background-color: black;
+  color: white;
+  position: absolute;
+}
+
+#mfm {
+  background-color: black;
+  color: white;
+  position: absolute;
+}
+
 #contactDiv {
   height: 250px;
   background-color: #D3D3D3;

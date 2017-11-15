@@ -57,6 +57,13 @@ $(window).scroll(function(event) {
   }
 });
 
+$('connect4').hover(function() {
+  $('connect4').addClass('show');
+  /* Stuff to do when the mouse enters the element */
+}, function() {
+  $('#connect4').removeClass('show');
+  /* Stuff to do when the mouse leaves the element */
+});
 
 //YoutubeIframe video player
 function onYouTubeIframeAPIReady() {
