@@ -51,6 +51,11 @@ h4 {
   font-family: 'Droid Sans', sans-serif;
 }
 
+#homeIcon {
+  height: 20px;
+  width: 20px;
+}
+
 #topNav li {
   color: rgb(13, 13, 13);
   font-size: 18px;

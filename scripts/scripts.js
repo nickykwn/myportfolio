@@ -23,6 +23,18 @@ $('#contact').click(function() {
   }, 700);
 });
 
+// $('#home').click(function() {
+//   $('html, body').animate({
+//     scrollTop: $('body').offset().top
+//   }, 700);
+// });
+
+$('#home').click(function() {
+  $('html, body').animate({
+    scrollTop: (0)
+  }, 700);
+});
+
 $('#navAboutMe').click(function() {
   $('html, body').animate({
     scrollTop: $('#aboutMeDiv').offset().top
