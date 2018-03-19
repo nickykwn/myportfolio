@@ -70,6 +70,7 @@ h4 {
   text-align: center;
   list-style-type: none;
   font-family: 'Droid Sans', sans-serif;
+  padding-bottom: 200px;
 }
 
 li {
@@ -85,9 +86,7 @@ li:hover {
   cursor: pointer;
 }
 
-#landing {
-  height: 245px;
-}
+#landing {}
 
 .hello {
   width: 100%;
