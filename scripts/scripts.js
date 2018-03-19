@@ -50,7 +50,7 @@ $('#navContacts').click(function() {
 //shows the top navBar only when window has been scrolled passed 1000 pixels
 $(window).scroll(function(event) {
   // console.log($(window).scrollTop());
-  if($(window).scrollTop()>1000){
+  if($(window).scrollTop()>($element).offsetTop){
     $('nav').addClass('show');
   }else{
     $('nav').removeClass('show');
