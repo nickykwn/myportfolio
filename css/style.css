@@ -160,6 +160,7 @@ li:hover {
 
 #project {
   padding-top: 100px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
@@ -173,13 +174,11 @@ li:hover {
 #connect4 {
   background-color: black;
   color: white;
-  position: absolute;
 }
 
 #mfm {
   background-color: black;
   color: white;
-  position: absolute;
 }
 
 #contactDiv {
@@ -282,12 +281,9 @@ p {
   }
   .hello {
     width: 100%;
-<<<<<<< HEAD
-=======
   }
   #aboutMeDiv {
     width: 100%;
->>>>>>> 1ad6629eac5c6240054b712c60059dc09c9631f9
   }
   #meVideos {
     text-align: center;
@@ -314,7 +310,7 @@ p {
   #projectsDiv {
     width: 100%;
   }
-  contactDiv {
+  #contactDiv {
     width: 100%;
   }
   #project {
