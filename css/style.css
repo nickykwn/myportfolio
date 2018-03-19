@@ -284,6 +284,9 @@ p {
   .hello {
     width: 640px;
   }
+  #aboutMeDiv {
+    width: 100%;
+  }
   #meVideos {
     text-align: center;
     width: 400px;
@@ -302,15 +305,20 @@ p {
     margin-top: -145px;
   }
   .projectsImg {
-  width: 350px;
-  height: 250px;
-  box-shadow: 10px 10px 5px #888888;
+    width: 350px;
+    height: 250px;
+    box-shadow: 10px 10px 5px #888888;
   }
-
+  #projectsDiv {
+    width: 100%;
+  }
+  contactDiv {
+    width: 100%;
+  }
   #project {
-  padding-top: 50px;
-  display: block;
-  text-align: center;
+    padding-top: 50px;
+    display: block;
+    text-align: center;
   }
   #workSkills {
     display: block;
@@ -331,6 +339,7 @@ p {
   }
   #experienceDiv {
     height: 830px;
+    width: 100%;
   }
   #experienceDiv h3 {
     font-size: 32px;
