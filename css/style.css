@@ -86,11 +86,11 @@ li:hover {
 }
 
 #landing {
-  height: 800px;
+  height: 100%;
 }
 
 .hello {
-  width: 800px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -282,7 +282,7 @@ p {
     text-align: center;
   }
   .hello {
-    width: 640px;
+    width: 100%;
   }
   #aboutMeDiv {
     width: 100%;
