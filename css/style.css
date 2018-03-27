@@ -91,8 +91,6 @@ li:hover {
   cursor: pointer;
 }
 
-#landing {}
-
 .hello {
   width: 100%;
   margin-left: auto;
@@ -179,11 +177,42 @@ li:hover {
 #connect4 {
   background-color: black;
   color: white;
+  position: relative;
 }
 
 #mfm {
   background-color: black;
   color: white;
+  position: relative;
+}
+
+#inner-box {
+  background: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 0;
+  transition: opacity .5s;
+}
+
+#inner-box:hover {
+  opacity: .8;
+  transition: opacity .5s;
+}
+
+#inner-box p {
+  line-height: 75px;
+  font-family: 'arial';
+  text-align: center;
+}
+
+#inner-box li {
+  display: block;
+  color: white;
+  font-size: 20px;
 }
 
 #contactDiv {
