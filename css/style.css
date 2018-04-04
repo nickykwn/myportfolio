@@ -190,7 +190,7 @@ li:hover {
   position: relative;
 }
 
-#inner-box {
+.inner-box {
   background: black;
   height: 100%;
   width: 100%;
@@ -202,21 +202,25 @@ li:hover {
   transition: opacity .5s;
 }
 
-#inner-box:hover {
+.inner-box:hover {
   opacity: .8;
   transition: opacity .5s;
 }
 
-#inner-box p {
+.inner-box p {
   line-height: 75px;
   font-family: 'Rokkitt', serif;
   text-align: center;
 }
 
-#inner-box li {
+.inner-box li {
   display: block;
   color: white;
   font-size: 20px;
+}
+
+.inner-box p {
+  font-size: 40px;
 }
 
 #contactDiv {
