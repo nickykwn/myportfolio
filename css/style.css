@@ -199,7 +199,6 @@ li:hover {
 
 .inner-box p {
   line-height: 75px;
-  
   text-align: center;
 }
 
@@ -251,7 +250,6 @@ li:hover {
 
 p {
   text-align: center;
-  
 }
 
 #botNav {
@@ -377,6 +375,6 @@ p {
     padding-top: 70px;
   }
   #projectsDiv h3 {
-  padding-top: 70px;
+    padding-top: 70px;
   }
 }
