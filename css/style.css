@@ -110,7 +110,7 @@ li:hover {
 #aboutMeDiv {
   height: 395px;
   padding-top: 300px;
-  background-color: #C4DFE6;
+  background-color: #F6F6F6;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -140,7 +140,7 @@ li:hover {
 
 #experienceDiv {
   height: 750px;
-  background-color: #66A5AD;
+  background-color: #d6e4f0;
   width: 100%;
 }
 
@@ -153,7 +153,7 @@ li:hover {
 
 #projectsDiv {
   height: 710px;
-  background-color: #C4DFE6;
+  background-color: #1e56a0;
   width: 100%;
 }
 
