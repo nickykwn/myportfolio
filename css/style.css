@@ -216,24 +216,20 @@ li:hover {
 }
 
 .inner-box p {
-  line-height: 75px;
+  line-height: 50px;
   text-align: center;
+  font-size: 38px;
 }
 
 .inner-box li {
   display: block;
   color: white;
-  font-size: 20px;
-  
-}
-
-.inner-box p {
-  font-size: 40px;
+  font-size: 18px;
 }
 
 #contactDiv {
   height: 250px;
-  background-color: #D3D3D3;
+  background-color: #FAFAFA;
   width: 100%;
 }
 
