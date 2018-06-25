@@ -122,9 +122,6 @@ li:hover {
   overflow: hidden;
   width: 100%;
   font-family: 'Helvetica', serif;
-  /*background-image: url("../images/basketball.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;*/
 }
 
 #aboutMeDiv h3 {
@@ -238,20 +235,10 @@ li:hover {
   padding-top: 40px;
 }
 
-/*#workSkills {
-  display: inline-flex;
-  width: 100%;
-}*/
-
 #work {
   width: 100%;
   font-family: 'Helvetica', serif;
 }
-
-/*#skills {
-  padding-top: 100px;
-  width: 50%;
-}*/
 
 #skills p {
   text-align: center;
@@ -275,7 +262,6 @@ li:hover {
   width: 75px;
   height: 75px;
   padding: 5px 5px 5px 5px;
-/*  margin-right: 450px;*/
   box-shadow: 10px 10px 5px #888888;
 }
 
